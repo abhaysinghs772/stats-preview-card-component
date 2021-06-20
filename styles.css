@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  position: relative;
+  font-family: "Inter", sans-serif;
+}
+
+.main-card {
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  position: absolute;
+  width: 80%;
+  margin: 10%;
+}
+
+.intro {
+  margin: 10% 0 10% 3%;
+  padding: 10% 10% 5% 8%;
+  width: 70%;
+}
+
+.main-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5%;
+  color: hsl(0, 0%, 100%);
+}
+
+.main-paragraph {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-size: 15px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.stats-items {
+  display: flex;
+  margin-left: 3%;
+  padding-left: 8%;
+  justify-content: space-between;
+}
+
+.stats-card {
+  width: 34%;
+}
+
+.stats-card .stats {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.stats-card p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+}
+
+@media (max-width: 375px) {
+  body {
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    /* position: relative; */
+    font-family: "Inter", sans-serif;
+  }
+  .main-card {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+  }
+
+  .heading-img {
+    order: 1;
+  }
+
+  .intro-and-stats {
+    order: 2;
+  }
+}
+
+/* .attribution p {
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}  */
