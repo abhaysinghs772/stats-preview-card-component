@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/abhaysinghs772/stats-preview-card-component)
-- Live Site URL: [Add live site URL here](https://abhaysinghs772.github.io/stats-preview-card-component/)
+- Solution URL: [https://github.com/abhaysinghs772/stats-preview-card-component]
+- Live Site URL: [https://abhaysinghs772.github.io/stats-preview-card-component/]
 
 ## My process
 
@@ -56,8 +56,7 @@ I will continue to work with "media query" and various other aspects of css like
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=JJSoEo8JSnc) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [flex-box](https://www.youtube.com/watch?v=JJSoEo8JSnc) - This tutorial helped me to understand what really is flex-box, and i'm still learning.
 
 ## Author
 
